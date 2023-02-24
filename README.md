@@ -50,5 +50,5 @@ newTree.StepBackward(); //Step back to the parent node.
 
 Lastly, you can get the value of the Current Node using...
 ```C#
-newTree.CurrentNode.value;
+var value = newTree.CurrentNode.value;
 ```
