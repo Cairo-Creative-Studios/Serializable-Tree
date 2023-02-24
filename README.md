@@ -1,24 +1,4 @@
 # Serializable-Tree
-A generic tree structure that can be displayed in the Unity Inspector, with a position pointer to the Current Node.
-
-- install
-
-Download the souce code and extract it to your project.
-
-- Create Tree
-
-An initial Value must always be given for the Root Node of the given Tree
-``` C#
-Tree<T> newTree = new Tree<T>(rootValue);
-```
-- Add Nodes
-
-Adding Nodes to a Tree requies the new value and the index for an int[] of the child/leaf to add it to (which can be accessed directly from a selected Node)
-```C#
-newTree.Add(child, node.index);
-```
-- Cursor/Pointer
-# Serializable-Tree
 
 A generic tree structure that can be displayed in the Unity Inspector, with a position pointer to the Current Node.
 - install
